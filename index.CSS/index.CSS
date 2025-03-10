@@ -1,8 +1,9 @@
+
 #navBar{
 
 background-color: rgb(156, 156, 2);
 display: grid;
-grid-template-columns: 30% 70%;
+grid-template-columns: 70% 70%;
 }
 #navlist{
     list-style-type: none;
@@ -26,16 +27,133 @@ grid-template-columns: 30% 70%;
     color: blue;
 }
 
-#box{
-    display: grid;
-    grid-template-areas: 'box1 box1 box1 box1'
-    'box2 box2 box2 box2';
 
-}
-#box1{
-    grid-area: box1;
-    color: rgb(145, 168, 14);
-}
-#box2{
-    grid-area: box2;
-}
+
+
+.card1 {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   
+   .card1:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card1:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+   .card2 {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    
+   }
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   
+   .card2:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card2:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+    .card3{
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    
+   }
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   
+   .card3:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card3:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
