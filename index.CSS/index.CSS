@@ -1,0 +1,41 @@
+#navBar{
+
+background-color: rgb(156, 156, 2);
+display: grid;
+grid-template-columns: 30% 70%;
+}
+#navlist{
+    list-style-type: none;
+
+}
+
+#navlist>li{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 80px;
+}
+#logo{
+    border-radius:80px;
+    width: 100px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: blue;
+}
+
+#box{
+    display: grid;
+    grid-template-areas: 'box1 box1 box1 box1'
+    'box2 box2 box2 box2';
+
+}
+#box1{
+    grid-area: box1;
+    color: rgb(145, 168, 14);
+}
+#box2{
+    grid-area: box2;
+}
