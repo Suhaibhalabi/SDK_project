@@ -9,14 +9,59 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to the English Department</h1>
-        <nav>
-            <button onclick="window.location.href='about.html'">About</button>
-            <button onclick="window.location.href='courses.html'" target="_blank">Courses</button>
-            <button onclick="window.location.href='Contact.html'">Contact</button>
-        </nav>
+         <div style="background-color: yellow;">
+            <h1 style="text-align: center;"> OurCourses</h1>
+        </div>
     </header>
-    <h1>Courses</h1>
+    <style>
+        body {
+            background-color: blue;
+        }
+        
+        .course-box {
+            background-color: #8e8a04;
+            border: 2px solid #0044cc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .course-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #ffcc00;
+        }
+
+        p {
+            color: #fff;
+        }
+    </style>
+
+    <div class="course-box">
+        <h2>English Grammar</h2>
+        <p>Master the fundamentals of English grammar including parts of speech, sentence structure, and proper usage. This course provides comprehensive coverage of basic to advanced grammar concepts.</p>
+    </div>
+
+    <div class="course-box">
+        <h2>Academic Writing</h2>
+        <p>Learn essential academic writing skills including essay structure, research methods, citation styles, and scholarly writing techniques. Perfect for students pursuing higher education.</p>
+    </div>
+
+    <div class="course-box">
+        <h2>Business English</h2>
+        <p>Develop professional communication skills for the business world. Topics include business correspondence, report writing, presentation skills, and workplace communication.</p>
+    </div>
+
+    <div class="course-box">
+        <h2>Literature Studies</h2>
+        <p>Explore classic and contemporary literature through critical analysis and interpretation. Study various literary genres, periods, and authors while developing analytical skills.</p>
+    </div>
 
 
 
